@@ -66,3 +66,5 @@ if __name__ == "__main__":
     prediction_list = predict(ticker=args.ticker, days=args.days)
     output = convert(prediction_list)
     print(output)
+
+
